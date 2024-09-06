@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.logo p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/southafrica-hero.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+/* About Section */
+.about {
+  padding: 40px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-icons {
+  margin-top: 20px;
+}
+
+.about-icons img {
+  margin: 0 10px;
+  width: 100px;
+}
+
+/* Services Section */
+.services {
+  padding: 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services-list {
+  margin-top: 20px;
+}
+
+.services-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-list ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Links Section */
+.links {
+  padding: 40px;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.links ul li a {
+  color: #007bff;
+}
+
+.links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.contact .social-media {
+  margin-top: 20px;
+}
+
+.contact .social-media a {
+  margin: 0 10px;
+  color: #007bff;
+}
+
+.contact .social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  font-size: 0.9em;
+}
+
